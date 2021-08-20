@@ -1,0 +1,21 @@
+<h1>
+Press F12 to see the console to read the strings and objects
+</h1>
+
+<script>
+//Object to string
+const object =
+{
+x: 1,
+y: 2,
+};
+console.log(object);
+const string = JSON.stringify(object);
+console.log(string);
+//string to Object
+
+const string2 = '{"a":1, "b":2}';
+const object2 = JSON.parse(string2);
+console.log(string2);
+console.log(object2);
+</script>
