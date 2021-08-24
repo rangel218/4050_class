@@ -1,12 +1,63 @@
-#nav_bar
+.header
 {
+font-family: 'Barlow', sans-serif;
+color: #fff;
 text-align: center; 
-font-size: 18px;  
+font-size: 25px;  
 }
-#bio
+.nav
 {
-    text-align: center;
-    margin: auto;
-    width: 500px;
+posotion:relative;
+text-align: center;
+background: white;
+height: 40px;
+
+ 
 }
 
+.bio
+{
+font-family: 'Barlow', sans-serif;
+font-size: 20px;
+color: white;
+text-align: center;
+margin: auto;
+width: 700px;
+line-height: 32px;
+}
+
+#home_link
+{
+position:absolute;	
+left: 1%;	
+}
+
+#resume_link
+{
+position:absolute;	
+left: 33%;	
+}
+
+#projects_link
+{
+position:absolute;	
+left: 66%;	
+}
+
+#contact_link
+{
+position:absolute;	
+right:1%;	
+}
+
+
+body
+{
+background: linear-gradient(#45CEF3, #438EE9);	
+	
+}
+a
+{
+	text-decoration:none;
+
+}
