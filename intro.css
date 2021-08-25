@@ -1,23 +1,26 @@
-.header
+#header
 {
-font-family: 'Barlow', sans-serif;
+position:relative;
+font-family: 'Source Sans Pro', sans-serif;
 color: #fff;
 text-align: center; 
-font-size: 25px;  
+font-size: 70px; 
+top: 50px; 
 }
-.nav
+#nav
 {
-posotion:relative;
-text-align: center;
-background: white;
-height: 40px;
+posotion: sticky;
+height: 30px;
+border-bottom: 1px solid white;
 
- 
+
 }
 
-.bio
+#introduction
 {
-font-family: 'Barlow', sans-serif;
+position: relative;
+top: 100px;
+font-family: 'Source Serif Pro', serif;
 font-size: 20px;
 color: white;
 text-align: center;
@@ -25,11 +28,37 @@ margin: auto;
 width: 700px;
 line-height: 32px;
 }
-
+#csusb
+{
+position: relative;	
+margin:0;
+background-position: 30% 25%;
+width: 200px;
+height: 200px;	
+background-image: url(image/csusb.png);
+background-size: 100%;
+float:left;	
+top: 120px;
+}
+#computer
+{	
+position: relative;	
+width: 200px;
+height: 170px;
+background-repeat: no-repeat;	
+background-image: url(image/computer.png);
+background-size: 100%;
+margin:0;
+float:right;
+top: 150px;
+	
+}	
 #home_link
 {
 position:absolute;	
 left: 1%;	
+color: linear-gradient(#45CEF3, #438EE9);
+
 }
 
 #resume_link
@@ -53,11 +82,13 @@ right:1%;
 
 body
 {
-background: linear-gradient(#45CEF3, #438EE9);	
+background: linear-gradient(black 75%,#c32aff);
 	
 }
 a
 {
 	text-decoration:none;
+	color: white;
+	font-size: 20px;
 
 }
