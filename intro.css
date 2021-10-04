@@ -9,7 +9,7 @@ top: 50px;
 }
 #nav
 {
-posotion: sticky;
+position: sticky;
 height: 30px;
 border-bottom: 1px solid white;
 
@@ -19,13 +19,13 @@ border-bottom: 1px solid white;
 #introduction
 {
 position: relative;
-top: 100px;
+top: 90px;
 font-family: 'Source Serif Pro', serif;
 font-size: 20px;
 color: white;
 text-align: center;
 margin: auto;
-width: 700px;
+width: 50%;
 line-height: 32px;
 }
 #csusb
@@ -39,6 +39,7 @@ background-image: url(image/csusb.png);
 background-size: 100%;
 float:left;	
 top: 120px;
+overflow:hidden;
 }
 #computer
 {	
@@ -51,14 +52,13 @@ background-size: 100%;
 margin:0;
 float:right;
 top: 150px;
+overflow:hidden;
 	
 }	
 #home_link
 {
 position:absolute;	
-left: 1%;	
-color: linear-gradient(#45CEF3, #438EE9);
-
+left: 1%;
 }
 
 #resume_link
@@ -83,6 +83,7 @@ right:1%;
 body
 {
 background: linear-gradient(black 75%,#c32aff);
+height:100%;
 	
 }
 a

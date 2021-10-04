@@ -1,0 +1,63 @@
+body
+{
+background: linear-gradient(black 75%,#c32aff);
+height:100%;
+	
+}
+#nav
+{
+position: sticky;
+height: 30px;
+border-bottom: 1px solid white;
+}
+#home_link
+{
+position:absolute;	
+left: 1%;
+}
+
+#resume_link
+{
+position:absolute;	
+left: 33%;	
+}
+
+#projects_link
+{
+position:absolute;	
+left: 66%;	
+}
+
+#contact_link
+{
+position:absolute;	
+right:1%;	
+}
+a
+{
+	text-decoration:none;
+	color: white;
+	font-size: 20px;
+
+}
+#header
+{
+position:relative;
+font-family: 'Source Sans Pro', sans-serif;
+color: #fff;
+text-align: center; 
+font-size: 70px; 
+top: 50px; 
+}
+#introduction
+{
+position: relative;
+top: 90px;
+font-family: 'Source Serif Pro', serif;
+font-size: 20px;
+color: white;
+text-align: center;
+margin: auto;
+width: 50%;
+line-height: 32px;
+}
